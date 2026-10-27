@@ -1,0 +1,1353 @@
+{
+ "source": "ISO/IEC 5055:2021, clause 7. One entry per CWE, with every characteristic it counts in (clause numbers kept).",
+ "cwes": {
+  "1054": {
+   "title": "Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.11"
+   ]
+  },
+  "1064": {
+   "title": "Invokable Control Element with Signature Containing an Excessive",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.12"
+   ]
+  },
+  "1084": {
+   "title": "Invokable Control Element with Excessive File or Data Access Operations",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.13"
+   ]
+  },
+  "1051": {
+   "title": "Initialization with Hard-Coded Network Resource Configuration Data ... 42",
+   "characteristics": [
+    "Maintainability",
+    "Reliability"
+   ],
+   "clauses": [
+    "7.1.14",
+    "7.3.65"
+   ]
+  },
+  "1045": {
+   "title": "Parent Class with a Virtual Destructor and a Child Class without a Virtual",
+   "characteristics": [
+    "Maintainability",
+    "Reliability"
+   ],
+   "clauses": [
+    "7.1.20",
+    "7.3.64"
+   ]
+  },
+  "1048": {
+   "title": "Invokable Control Element with Large Number of Outward Calls (Excessive",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.22"
+   ]
+  },
+  "1085": {
+   "title": "Invokable Control Element with Excessive Volume of Commented-out Code",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.24"
+   ]
+  },
+  "401": {
+   "title": "Improper Release of Memory Before Removing Last Reference ('Memory",
+   "characteristics": [
+    "Performance Efficiency",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.1",
+    "7.3.20",
+    "7.4.21"
+   ]
+  },
+  "1073": {
+   "title": "Non -SQL Invokable Control Element with Excessive Number of Data",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.6"
+   ]
+  },
+  "1057": {
+   "title": "Data Access Operations Outside of Designated Data Manager Component",
+   "characteristics": [
+    "Performance Efficiency",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.7",
+    "7.4.71"
+   ]
+  },
+  "1043": {
+   "title": "Storable and Member Data Element Excessive Number of Aggregated",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.8"
+   ]
+  },
+  "119": {
+   "title": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.1",
+    "7.4.1"
+   ]
+  },
+  "543": {
+   "title": "Use of Singleton Pattern Without Synchronization in a Multithreaded",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.30",
+    "7.4.30"
+   ]
+  },
+  "758": {
+   "title": "Reliance on Undefined, Unspecified, or Implementation -Defined Behavior",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.42"
+   ]
+  },
+  "1058": {
+   "title": "Invokable Control Element in Multi-Thread Context with non -Final Static",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.60"
+   ]
+  },
+  "1096": {
+   "title": "Singleton Class Instance Creatio n without Proper Locking or",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.61"
+   ]
+  },
+  "1070": {
+   "title": "Serializable Storable Data Element with non-Serializable Item Elements",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.68"
+   ]
+  },
+  "1097": {
+   "title": "Persistent Storable Data Element without Associated Comparison Control",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.69"
+   ]
+  },
+  "1098": {
+   "title": "Data Element containing Pointer Item without Proper Copy Control",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.70"
+   ]
+  },
+  "22": {
+   "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.13"
+   ]
+  },
+  "643": {
+   "title": "Improper Neutralization of Data within XPath Expressions ('XPath",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.36"
+   ]
+  },
+  "652": {
+   "title": "Improper Neutralization of Data within XQuery Expressions ('XQuery",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.37"
+   ]
+  },
+  "77": {
+   "title": "Improper Neutralization of Special Elements used in a Command ('Command",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.45"
+   ]
+  },
+  "78": {
+   "title": "Improper Neutralization of Special Elements used in an OS Command ('OS",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.49"
+   ]
+  },
+  "79": {
+   "title": "Improper Neutralization of Input During Web Page Generation ('Cross -site",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.55"
+   ]
+  },
+  "89": {
+   "title": "Improper Neutralization of Special Elements used in an SQL Command ('SQL",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.66"
+   ]
+  },
+  "90": {
+   "title": "Improper Neutralization of Special Ele ments used in an LDAP Query ('LDAP",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.67"
+   ]
+  },
+  "407": {
+   "title": "Algorithmic Complexity",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.1"
+   ]
+  },
+  "478": {
+   "title": "Missing Default Case in Switch Statement",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.2"
+   ]
+  },
+  "480": {
+   "title": "Use of Incorrect Operator",
+   "characteristics": [
+    "Maintainability",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.1.3",
+    "7.3.28",
+    "7.4.28"
+   ]
+  },
+  "484": {
+   "title": "Omitted Break Statement in Switch",
+   "characteristics": [
+    "Maintainability",
+    "Reliability"
+   ],
+   "clauses": [
+    "7.1.4",
+    "7.3.29"
+   ]
+  },
+  "561": {
+   "title": "Dead Code",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.5"
+   ]
+  },
+  "570": {
+   "title": "Expression is Always False",
+   "characteristics": [
+    "Maintainability",
+    "Security"
+   ],
+   "clauses": [
+    "7.1.6",
+    "7.4.33"
+   ]
+  },
+  "571": {
+   "title": "Expression is Always True",
+   "characteristics": [
+    "Maintainability",
+    "Security"
+   ],
+   "clauses": [
+    "7.1.7",
+    "7.4.34"
+   ]
+  },
+  "783": {
+   "title": "Operator Precedence Logic Error",
+   "characteristics": [
+    "Maintainability",
+    "Security"
+   ],
+   "clauses": [
+    "7.1.8",
+    "7.4.50"
+   ]
+  },
+  "1075": {
+   "title": "Unconditional Control Flow Transfer Outside of Switch Block",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.9"
+   ]
+  },
+  "1121": {
+   "title": "Excessive McCabe Cyclomatic Complexity Value",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.10"
+   ]
+  },
+  "1090": {
+   "title": "Method Containing Access of a Member Element from Another Class",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.15"
+   ]
+  },
+  "1074": {
+   "title": "Class with Excessively Deep Inheritance",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.16"
+   ]
+  },
+  "1086": {
+   "title": "Class with Excessive Number of Child Classes",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.17"
+   ]
+  },
+  "1041": {
+   "title": "Use of Redundant Code (Copy-Paste)",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.18"
+   ]
+  },
+  "1055": {
+   "title": "Multiple Inheritance from Concrete Classes",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.19"
+   ]
+  },
+  "1052": {
+   "title": "Excessive Use of Hard-Coded Literals in Initialization",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.21"
+   ]
+  },
+  "1095": {
+   "title": "Loop Condition Value Update within the Loop",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.23"
+   ]
+  },
+  "1047": {
+   "title": "Modules with Circular Dependencies",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.25"
+   ]
+  },
+  "1080": {
+   "title": "Source Code File with Excessive Number of Lines of Code",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.26"
+   ]
+  },
+  "1062": {
+   "title": "Parent Class Element with References to Child Class",
+   "characteristics": [
+    "Maintainability"
+   ],
+   "clauses": [
+    "7.1.27"
+   ]
+  },
+  "1087": {
+   "title": "Class with Virtual Method without a Virtual Destructor",
+   "characteristics": [
+    "Maintainability",
+    "Reliability"
+   ],
+   "clauses": [
+    "7.1.28",
+    "7.3.62"
+   ]
+  },
+  "1079": {
+   "title": "Parent Class without Virtual Destructor Method",
+   "characteristics": [
+    "Maintainability",
+    "Reliability"
+   ],
+   "clauses": [
+    "7.1.29",
+    "7.3.63"
+   ]
+  },
+  "404": {
+   "title": "Improper Resource Shutdown or Release",
+   "characteristics": [
+    "Performance Efficiency",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.2",
+    "7.3.21",
+    "7.4.22"
+   ]
+  },
+  "424": {
+   "title": "Improper Protection of Alternate Path",
+   "characteristics": [
+    "Performance Efficiency",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.3",
+    "7.3.24",
+    "7.4.23"
+   ]
+  },
+  "772": {
+   "title": "Missing Release of Resource after Effective Lifetime",
+   "characteristics": [
+    "Performance Efficiency",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.4",
+    "7.3.44",
+    "7.4.46"
+   ]
+  },
+  "775": {
+   "title": "Missing Release of File Descriptor or Handle after Effective Lifetime",
+   "characteristics": [
+    "Performance Efficiency",
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.2.5",
+    "7.3.45",
+    "7.4.47"
+   ]
+  },
+  "1072": {
+   "title": "Data Resource Access without use of Connection Pooling",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.9"
+   ]
+  },
+  "1060": {
+   "title": "Excessive Number of Inefficient Server-Side Data Accesses",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.10",
+    "7.2.19"
+   ]
+  },
+  "1091": {
+   "title": "Use of Object without Invoking Destructor Method",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.11"
+   ]
+  },
+  "1046": {
+   "title": "Creation of Immutable Text Using String Concatenation",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.12"
+   ]
+  },
+  "1042": {
+   "title": "Static Member Data Element outside of a Singleton Class Element",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.13"
+   ]
+  },
+  "1049": {
+   "title": "Excessive Data Query Operations in a Large Data Table",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.14"
+   ]
+  },
+  "1067": {
+   "title": "Excessive Execution of Sequential Searches of Data Resource",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.15"
+   ]
+  },
+  "1089": {
+   "title": "Large Data Table with Excessive Number of Indices",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.16"
+   ]
+  },
+  "1094": {
+   "title": "Excessive Index Range Scan for a Data Resource",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.17"
+   ]
+  },
+  "1050": {
+   "title": "Excessive Platform Resource Consumption within a Loop",
+   "characteristics": [
+    "Performance Efficiency"
+   ],
+   "clauses": [
+    "7.2.18"
+   ]
+  },
+  "120": {
+   "title": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.2",
+    "7.4.2"
+   ]
+  },
+  "123": {
+   "title": "Write-what-where Condition",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.3",
+    "7.4.3"
+   ]
+  },
+  "125": {
+   "title": "Out-of-bounds Read",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.4",
+    "7.4.4"
+   ]
+  },
+  "130": {
+   "title": "Improper Handling of Length Parameter Inconsistency",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.5",
+    "7.4.6"
+   ]
+  },
+  "131": {
+   "title": "Incorrect Calculation of Buffer Size",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.6",
+    "7.4.7"
+   ]
+  },
+  "170": {
+   "title": "Improper Null Termination",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.7"
+   ]
+  },
+  "194": {
+   "title": "Unexpected Sign Extension",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.8",
+    "7.4.9"
+   ]
+  },
+  "195": {
+   "title": "Signed to Unsigned Conversion Error",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.9",
+    "7.4.10"
+   ]
+  },
+  "196": {
+   "title": "Unsigned to Signed Conversion Error",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.10",
+    "7.4.11"
+   ]
+  },
+  "197": {
+   "title": "Numeric Truncation Error",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.11",
+    "7.4.12"
+   ]
+  },
+  "248": {
+   "title": "Uncaught Exception",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.12"
+   ]
+  },
+  "252": {
+   "title": "Unchecked Return Value",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.13",
+    "7.4.15"
+   ]
+  },
+  "366": {
+   "title": "Race Condition within a Thread",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.14",
+    "7.4.19"
+   ]
+  },
+  "369": {
+   "title": "Divide by Zero",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.15",
+    "7.4.20"
+   ]
+  },
+  "390": {
+   "title": "Detection of Error Condition Without Action",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.16"
+   ]
+  },
+  "391": {
+   "title": "Unchecked Error Condition",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.17"
+   ]
+  },
+  "392": {
+   "title": "Missing Report of Error Condition",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.18"
+   ]
+  },
+  "394": {
+   "title": "Unexpected Status Code or Return Value",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.19"
+   ]
+  },
+  "415": {
+   "title": "Double Free",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.22",
+    "7.4.72"
+   ]
+  },
+  "416": {
+   "title": "Use After Free",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.23",
+    "7.4.73"
+   ]
+  },
+  "456": {
+   "title": "Missing Initialization of a Variable",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.25",
+    "7.4.25"
+   ]
+  },
+  "459": {
+   "title": "Incomplete Cleanup",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.26"
+   ]
+  },
+  "476": {
+   "title": "NULL Pointer Dereference",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.27"
+   ]
+  },
+  "562": {
+   "title": "Return of Stack Variable Address",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.31"
+   ]
+  },
+  "567": {
+   "title": "Unsynchronized Access to Shared Data in a Multithreaded Context",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.32",
+    "7.4.32"
+   ]
+  },
+  "595": {
+   "title": "Comparison of Object References Instead of Object Contents",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.33"
+   ]
+  },
+  "597": {
+   "title": "Use of Wrong Operator in String Comparison",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.34"
+   ]
+  },
+  "662": {
+   "title": "Improper Synchronization",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.35",
+    "7.4.38"
+   ]
+  },
+  "667": {
+   "title": "Improper Locking",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.36",
+    "7.4.40"
+   ]
+  },
+  "672": {
+   "title": "Operation on a Resource after Expiration or Release",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.37",
+    "7.4.41"
+   ]
+  },
+  "681": {
+   "title": "Incorrect Conversion between Numeric Types",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.38",
+    "7.4.42"
+   ]
+  },
+  "682": {
+   "title": "Incorrect Calculation",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.39",
+    "7.4.43"
+   ]
+  },
+  "703": {
+   "title": "Improper Check or Handling of Exceptional Conditions",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.40"
+   ]
+  },
+  "704": {
+   "title": "Incorrect Type Conversion or Cast",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.41"
+   ]
+  },
+  "764": {
+   "title": "Multiple Locks of a Critical Resource",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.43"
+   ]
+  },
+  "786": {
+   "title": "Access of Memory Location Before Start of Buffer",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.46",
+    "7.4.51"
+   ]
+  },
+  "787": {
+   "title": "Out-of-bounds Write",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.47",
+    "7.4.52"
+   ]
+  },
+  "788": {
+   "title": "Access of Memory Location After End of Buffer",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.48",
+    "7.4.53"
+   ]
+  },
+  "805": {
+   "title": "Buffer Access with Incorrect Length Value",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.49",
+    "7.4.57"
+   ]
+  },
+  "820": {
+   "title": "Missing Synchronization",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.50",
+    "7.4.58"
+   ]
+  },
+  "821": {
+   "title": "Incorrect Synchronization",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.51",
+    "7.4.59"
+   ]
+  },
+  "822": {
+   "title": "Untrusted Pointer Dereference",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.52",
+    "7.4.60"
+   ]
+  },
+  "823": {
+   "title": "Use of Out-of-range Pointer Offset",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.53",
+    "7.4.61"
+   ]
+  },
+  "824": {
+   "title": "Access of Uninitialized Pointer",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.54",
+    "7.4.62"
+   ]
+  },
+  "825": {
+   "title": "Expired Pointer Dereference",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.55",
+    "7.4.63"
+   ]
+  },
+  "833": {
+   "title": "Deadlock",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.56"
+   ]
+  },
+  "835": {
+   "title": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.57",
+    "7.4.64"
+   ]
+  },
+  "908": {
+   "title": "Use of Uninitialized Resource",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.58"
+   ]
+  },
+  "1083": {
+   "title": "Data Access from Outside Designated Data Manager Component",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.59"
+   ]
+  },
+  "1088": {
+   "title": "Synchronous Access of Remote Resource without Timeout",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.66"
+   ]
+  },
+  "1066": {
+   "title": "Missing Serialization Control Element",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.67"
+   ]
+  },
+  "1082": {
+   "title": "Class Instance Self Destruction Control Element",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.71"
+   ]
+  },
+  "1077": {
+   "title": "Floating Point Comparison with Incorrect Operator",
+   "characteristics": [
+    "Reliability"
+   ],
+   "clauses": [
+    "7.3.72"
+   ]
+  },
+  "665": {
+   "title": "Improper Initialization",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.73",
+    "7.4.39"
+   ]
+  },
+  "457": {
+   "title": "Use of Uninitialized Variable",
+   "characteristics": [
+    "Reliability",
+    "Security"
+   ],
+   "clauses": [
+    "7.3.74",
+    "7.4.26"
+   ]
+  },
+  "129": {
+   "title": "Improper Validation of Array Index",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.5"
+   ]
+  },
+  "134": {
+   "title": "Use of Externally-Controlled Format String",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.8"
+   ]
+  },
+  "23": {
+   "title": "Relative Path Traversal",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.14"
+   ]
+  },
+  "259": {
+   "title": "Use of Hard-coded Password",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.16"
+   ]
+  },
+  "321": {
+   "title": "Use of Hard-coded Cryptographic Key",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.17"
+   ]
+  },
+  "36": {
+   "title": "Absolute Path Traversal",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.18"
+   ]
+  },
+  "434": {
+   "title": "Unrestricted Upload of File with Dangerous Type",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.24"
+   ]
+  },
+  "477": {
+   "title": "Use of Obsolete Function",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.27"
+   ]
+  },
+  "502": {
+   "title": "Deserialization of Untrusted Data",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.29"
+   ]
+  },
+  "564": {
+   "title": "SQL Injection: Hibernate",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.31"
+   ]
+  },
+  "606": {
+   "title": "Unchecked Input for Loop Condition",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.35"
+   ]
+  },
+  "732": {
+   "title": "Incorrect Permission Assignment for Critical Resource",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.44"
+   ]
+  },
+  "778": {
+   "title": "Insufficient Logging",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.48"
+   ]
+  },
+  "789": {
+   "title": "Uncontrolled Memory Allocation",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.54"
+   ]
+  },
+  "798": {
+   "title": "Use of Hard-coded Credentials",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.56"
+   ]
+  },
+  "88": {
+   "title": "Argument Injection or Modification",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.65"
+   ]
+  },
+  "91": {
+   "title": "XML Injection (aka Blind XPath Injection)",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.68"
+   ]
+  },
+  "99": {
+   "title": "Improper Control of Resource Identifiers ('Resource Injection')",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.69"
+   ]
+  },
+  "611": {
+   "title": "Improper Restriction of XML External Entity Reference ('XXE')",
+   "characteristics": [
+    "Security"
+   ],
+   "clauses": [
+    "7.4.70"
+   ]
+  }
+ }
+}
